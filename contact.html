@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Bluebird Aviation — Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html"> <img src="img/logo (2).png" alt="Bluebird Aviation Logo" class="logo">
+
+            </a>
+            <nav class="nav" id="nav5">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="fleet.html">Fleet</a>
+                <a href="cargo.html">Cargo</a>
+                <a href="contact.html" class="active cta">Contact</a>
+            </nav>
+            <button id="navToggle5" class="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="page-head fade-up">
+            <h1>Contact Us</h1>
+            <p class="lead">Get in touch for quotes, capacity requests, or partnership enquiries.</p>
+        </section>
+
+        <section class="contact-grid fade-up" id="quote">
+            <form id="contactForm" class="contact-form">
+                <label>
+                    Your name
+                    <input type="text" name="name" required placeholder="Alex Johnson" />
+                </label>
+
+                <label>
+                    Email
+                    <input type="email" name="email" required placeholder="you@example.com" />
+                </label>
+
+                <label>
+                    Shipment details
+                    <textarea name="details" rows="5" placeholder="What are you shipping? size, weight, route..."
+                        required></textarea>
+                </label>
+
+                <div class="row">
+                    <button class="btn" type="submit">Request Quote</button>
+                    <button type="reset" class="btn ghost">Reset</button>
+                </div>
+
+                <div id="formMsg" class="form-msg" aria-live="polite"></div>
+            </form>
+
+            <aside class="contact-info">
+                <h4>Head Office</h4>
+                <p>Bluebird Aviation Logistics<br />Wilson Flyover, Nairobi, Kenya</p>
+                <p>Email: enquiries@bluebirdaviation.com<br />Phone: +254 732189000</p>
+            </aside>
+        </section>
+    </main>
+
+
+    <footer class="site-footer">
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <h3>Bluebird&nbsp;&nbsp;Aviation</h3>
+                <p>Premium Air Cargo & Charter Services</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Company</h4>
+                <a href="about.html">About Us</a>
+                <a href="fleet.html">Fleet</a>
+                <a href="cargo.html">Cargo</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="footer-links">
+                <h4>Services</h4>
+                <a href="#">Air Cargo</a>
+                <a href="#">Charter Flights</a>
+                <a href="#">Humanitarian Missions</a>
+                <a href="#">Emergency Response</a>
+            </div>
+
+            <div class="footer-meta">
+                <h4>Trusted Worldwide</h4>
+                <p>Operating across Africa, Middle East & Europe.</p>
+                <p class="accent">Safety • Speed • Reliability</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <span>© <span id="year"></span> Bluebird Aviation</span>
+            <span class="dot">•</span>
+            <span>All Rights Reserved</span>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

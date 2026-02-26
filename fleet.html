@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>The Bluebird Avaition — Fleet</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+</head>
+
+<body>
+    <audio id="fleetSound" preload="auto">
+        <source src="audio/airbus-cabin-pa-beep-tone-passenger-announcement-chime-358248.mp3" type="audio/mpeg">
+    </audio>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html"> <img src="img/logo (2).png" alt="Bluebird Aviation Logo" class="logo">
+
+            </a>
+            <nav class="nav" id="nav3">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="fleet.html" class="active">Fleet</a>
+                <a href="cargo.html">Cargo</a>
+                <a href="contact.html" class="cta">Contact</a>
+            </nav>
+            <button id="navToggle3" class="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="page-head fade-up">
+            <h1>Our Fleet</h1>
+            <p class="lead">A balanced fleet for diverse cargo needs — from express parcels to heavy freight.</p>
+        </section>
+
+        <article class="vehicle-card">
+            <div class="img" style="background-image:url('img/Gulfgv.jpg')"></div>
+            <div class="meta">
+                <h4>Gulfstream GV</h4>
+                <p>Range: 12,000 km • Passengers: 14–19</p>
+                <button class="btn small" data-model="Gulfstream GV"
+                    data-desc="Long-range private jet for executive and VIP missions." data-speed="904 km/h"
+                    data-range="12,000 km" data-engines="Rolls-Royce BR710" data-payload="3,000 kg"
+                    data-cabin="6 ft 2 in height" data-crew="2 pilots + 1 cabin crew"
+                    data-images="img/gv/cabin.jpg, img/gv/flying.webp">
+                    Details
+                </button>
+
+            </div>
+        </article>
+
+
+        <article class="vehicle-card">
+            <div class="img" style="background-image:url('img/cargo.avif')"></div>
+
+            <div class="meta">
+                <h4>De Havilland Canada Dash 8 – Q400</h4>
+                <p> Max Cargo: 10 tonnes</p>
+
+                <button class="btn small" data-model="De Havilland Canada Dash 8 – Q400"
+                    data-desc="The only cargo-configured Q400 aircraft in the world, offering unmatched speed and efficiency for regional cargo and passenger charter operations."
+                    data-crew="Minimum crew: 4" data-mtow="29.2 tonnes" data-payload="10 tonnes" data-volume="80 m³"
+                    data-service="Commercial cargo / Passenger charters" data-quantity="Fleet size: 6 aircraft"
+                    data-images="img/gv/de haville cargo.webp, img/gv/q-400 flying.jpg">
+                    Details
+                </button>
+            </div>
+        </article>
+
+        <article class="vehicle-card">
+            <div class="img" style="background-image:url('img/Beechcraft.jpeg')"></div>
+
+            <div class="meta">
+                <h4>Beechcraft King Air</h4>
+                <p>Seats: 18 • Cargo: 2.88 tonnes</p>
+
+                <button class="btn small" data-model="Beechcraft King Air"
+                    data-desc="A versatile twin-turboprop aircraft used for luxury charter, emergency medical evacuation, and humanitarian missions across remote regions."
+                    data-crew="2" data-seats="18" data-mtow="7.6 tonnes" data-payload="2.88 tonnes" data-volume="18 m³"
+                    data-service="Private charter / Air ambulance / Humanitarian" data-quantity="1"
+                    data-images="img/gv/beechcraft-1900d-interior.jpg, img/gv/d.jpg">
+                    Details
+                </button>
+            </div>
+        </article>
+
+        <article class="vehicle-card">
+            <div class="img" style="background-image:url('img/gv/let-l-turbolet-airport-runway.webp')"></div>
+
+            <div class="meta">
+                <h4>LET L-410 Turbolet</h4>
+                <p>Seats: 19 • Cargo: 1.8 tonnes</p>
+
+                <button class="btn small" data-model="LET L-410 Turbolet"
+                    data-desc="The LET L-410 Turbolet is a rugged short-takeoff and landing aircraft designed for regional cargo and passenger operations, especially in remote and unprepared airstrips."
+                    data-crew="2" data-seats="19" data-mtow="6.6 tonnes" data-payload="1.8 tonnes" data-volume="17.9 m³"
+                    data-service="Commercial cargo /  Private charters" data-quantity="3"
+                    data-images="img/LET_L-410.avif,img/gv/let-interior.jpg">
+                    Details
+                </button>
+            </div>
+        </article>
+        <article class="vehicle-card">
+            <div class="img" style="background-image:url('img/de-havilland-canada-dash-8-100_P.jpg')"></div>
+            <div class="meta">
+                <h4>De Havilland Canada Dash 8 – Q100</h4>
+                <p>Seats: 37 • Cargo: 3.5 tonnes</p>
+
+                <button class="btn small" data-model="De Havilland Canada Dash 8 – Q100"
+                    data-desc="Short-range turboprop ideal for remote & rugged airstrips, with flexible cabin and cargo configurations."
+                    data-crew="3" data-seats="37" data-mtow="15.6 tonnes" data-payload="3.5 tonnes" data-volume="39 m³"
+                    data-service="Commercial cargo / Passenger charters" data-quantity="4"
+                    data-images="img/gv/de-havilland-canada-dash-8-100.jpg,img/gv/R.jpeg">
+                    Details
+                </button>
+            </div>
+        </article>
+
+        <article class="vehicle-card">
+            <div class="img" style="background-image:url('img/beechcraft200.jpg')"></div>
+
+            <div class="meta">
+                <h4>Beechcraft King Air B200</h4>
+                <p>Seats: 8 • Cargo: 1 tonne</p>
+
+                <button class="btn small" data-model="Beechcraft King Air B200"
+                    data-desc="A versatile twin-turboprop offering luxury charter comfort, rapid medical evacuation capability, and reliable humanitarian support."
+                    data-crew="2" data-seats="8" data-mtow="5.67 tonnes" data-payload="1 tonne" data-volume="1.37 m³"
+                    data-service="Private luxury charter / Emergency ambulance / Humanitarian" data-quantity="1"
+                    data-images="img/gv/Beechcraft.jpg,img/gv/Beech-King-Interior.jpg">
+                    Details
+                </button>
+            </div>
+        </article>
+
+
+
+        </section>
+
+        <section class="cta-panel fade-up">
+            <h3>Need capacity for an urgent shipment?</h3>
+            <p>Contact our cargo team for availability and quote.</p>
+            <a class="btn" href="contact.html#quote">Request Capacity</a>
+        </section>
+    </main>
+
+    <!-- Simple modal for vehicle details -->
+    <!-- Advanced Modal -->
+    <div id="modal" class="modal" aria-hidden="true">
+        <div class="modal-content big">
+            <button class="modal-close" aria-label="Close">✕</button>
+
+            <div class="modal-header">
+                <h2 id="modalTitle"></h2>
+            </div>
+
+            <div class="modal-body">
+                <div class="modal-gallery" id="modalGallery"></div>
+
+                <div class="modal-stats">
+                    <h3>Aircraft Specifications</h3>
+                    <ul id="modalStats"></ul>
+                </div>
+
+                <p id="modalDesc"></p>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer">
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <h3>Bluebird&nbsp;&nbsp;Aviation</h3>
+                <p>Premium Air Cargo & Charter Services</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Company</h4>
+                <a href="about.html">About Us</a>
+                <a href="fleet.html">Fleet</a>
+                <a href="cargo.html">Cargo</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="footer-links">
+                <h4>Services</h4>
+                <a href="#">Air Cargo</a>
+                <a href="#">Charter Flights</a>
+                <a href="#">Humanitarian Missions</a>
+                <a href="#">Emergency Response</a>
+            </div>
+
+            <div class="footer-meta">
+                <h4>Trusted Worldwide</h4>
+                <p>Operating across Africa, Middle East & Europe.</p>
+                <p class="accent">Safety • Speed • Reliability</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <span>© <span id="year"></span> Bluebird Aviation</span>
+            <span class="dot">•</span>
+            <span>All Rights Reserved</span>
+        </div>
+
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
